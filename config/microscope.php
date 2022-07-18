@@ -37,4 +37,18 @@ return [
      * the "class" falls deep down, you may increase this value, so that it searches deeper.
      */
     'class_search_buffer' => 2500,
+
+    /**
+     * The doc blocks in your controllers are generated based on this template.
+     * You can change this template to customize the check:action_comments results.
+     */
+    'action_comment_template' => 'microscope_package::action_comment',
+
+    /**
+     * If a non-default route file is not being scanned,
+     * you can manually add its path here, as below:.
+     */
+    'additional_route_files' => [
+        // app()->basePath('some_folder/my_route.php''),
+    ],
 ];
