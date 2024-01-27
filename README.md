@@ -1,4 +1,4 @@
-# Laravel 9 檢查發現應用程式相關的錯誤
+# Laravel 10 檢查發現應用程式相關的錯誤
 
 引入 imanghafoori 的 laravel-microscope 套件來擴增檢查發現應用程式相關的錯誤，幫助發現應用程式中可能沒有太多測試的錯誤和陷阱；然而，這個套件對於具有許多測試案例的應用程式也很有幫助。
 
@@ -18,11 +18,10 @@ $ php artisan key:generate
 ```
 - 你可以使用 `php artisan check:{項目}` 指令來執行檢查和運行所有檢查的特殊命令。
 ```sh
-$ php artisan check:early_returns
 $ php artisan check:all
 $ php artisan check:views
 $ php artisan check:routes
-$ php artisan check:psr4 {-s|--nofix}
+$ php artisan check:psr4 {-s|--nofix} 
 $ php artisan check:imports {-s|--nofix}
 $ php artisan check:stringy_classes
 $ php artisan check:dd
@@ -35,10 +34,14 @@ $ php artisan check:generate
 $ php artisan check:endif
 $ php artisan check:events
 $ php artisan check:gates
+$ php artisan check:dynamic_where
+$ php artisan check:aliases
+$ php artisan check:dead_controllers
+$ php artisan check:generic_docblocks
 ```
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/d80uxZ7.png)
+![](https://i.imgur.com/oYmvWTe.png)
 > 檢查 PSR-4 自動載入標準
