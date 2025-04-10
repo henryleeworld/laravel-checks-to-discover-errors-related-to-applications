@@ -32,7 +32,7 @@ return [
     ],
 
     /**
-     * By default, we only process the first 2000 characters of a file to find the "class" keyword.
+     * By default, we only process the first 2500 characters of a file to find the "class" keyword.
      * So, if you have a lot of use statements or very big docblocks for your classes so that
      * the "class" falls deep down, you may increase this value, so that it searches deeper.
      */
@@ -50,5 +50,19 @@ return [
      */
     'additional_route_files' => [
         // app()->basePath('some_folder/my_route.php''),
+    ],
+
+    /**
+     * If you have additional config files, you can list their folders here.
+     */
+    'additional_config_paths' => [
+        // 'my/folder/configs'
+    ],
+
+    /**
+     * If you have additional composer.json files, you can list their file paths here.
+     */
+    'additional_composer_paths' => [
+        //
     ],
 ];

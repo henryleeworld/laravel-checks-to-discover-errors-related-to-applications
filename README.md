@@ -1,4 +1,4 @@
-# Laravel 10 檢查發現應用程式相關的錯誤
+# Laravel 11 檢查發現應用程式相關的錯誤
 
 引入 imanghafoori 的 laravel-microscope 套件來擴增檢查發現應用程式相關的錯誤，幫助發現應用程式中可能沒有太多測試的錯誤和陷阱；然而，這個套件對於具有許多測試案例的應用程式也很有幫助。
 
@@ -43,5 +43,5 @@ $ php artisan check:generic_docblocks
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/oYmvWTe.png)
+![](https://i.imgur.com/tbuE3YQ.png)
 > 檢查 PSR-4 自動載入標準
